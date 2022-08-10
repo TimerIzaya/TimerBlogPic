@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T10:52:37.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TR5IjwFoggNywU_APk4B" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T11:46:21.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="STwOc3yB7kRp5CWUDEyw" version="20.2.3" type="github">
   <diagram id="Pey-fTAdMKlvTzAQ_6oM" name="第 1 页">
     <mxGraphModel dx="3903" dy="1931" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lOE71iu9NwVfd17PiWJ9-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.567;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="1" source="lOE71iu9NwVfd17PiWJ9-1" target="lOE71iu9NwVfd17PiWJ9-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lOE71iu9NwVfd17PiWJ9-1" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
           <mxGeometry x="-782" y="214" width="153" height="280" as="geometry" />
         </mxCell>
@@ -109,11 +112,6 @@
         <mxCell id="lOE71iu9NwVfd17PiWJ9-44" value="padding: uint16" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="lOE71iu9NwVfd17PiWJ9-43">
           <mxGeometry width="184" height="40" as="geometry">
             <mxRectangle width="184" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lOE71iu9NwVfd17PiWJ9-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lOE71iu9NwVfd17PiWJ9-31">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-574" y="474" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lOE71iu9NwVfd17PiWJ9-51" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
@@ -255,6 +253,12 @@
           <mxGeometry width="67" height="40" as="geometry">
             <mxRectangle width="67" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lOE71iu9NwVfd17PiWJ9-130" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;LogRecord&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-738" y="184" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lOE71iu9NwVfd17PiWJ9-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.018;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="1" source="lOE71iu9NwVfd17PiWJ9-2" target="lOE71iu9NwVfd17PiWJ9-54">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
