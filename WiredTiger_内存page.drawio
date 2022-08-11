@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T14:49:11.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.3" etag="vMC5SIaHg8qPTOnBXtvx" type="github"><diagram id="ky8-NgT48sntrBGbQjqh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-11T15:13:07.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="eDbdWS5_9QlS_HLk2yhq" version="20.2.3" type="github">
+  <diagram id="ky8-NgT48sntrBGbQjqh" name="第 1 页">
+    <mxGraphModel dx="783" dy="414" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-2" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="45" y="144" width="272.08" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-2">
+          <mxGeometry width="272.08" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-4" value="row_array" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-3">
+          <mxGeometry width="108" height="27" as="geometry">
+            <mxRectangle width="108" height="27" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-25" value="磁盘上原有的位置索引数组" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-3">
+          <mxGeometry x="108" width="164" height="27" as="geometry">
+            <mxRectangle width="164" height="27" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-2">
+          <mxGeometry y="27" width="272.08" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-16" value="row_insert_array" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-15">
+          <mxGeometry width="108" height="25" as="geometry">
+            <mxRectangle width="108" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-26" value="插入数据用的跳表" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-15">
+          <mxGeometry x="108" width="164" height="25" as="geometry">
+            <mxRectangle width="164" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-2">
+          <mxGeometry y="52" width="272.08" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-18" value="row_update_array" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-17">
+          <mxGeometry width="108" height="27" as="geometry">
+            <mxRectangle width="108" height="27" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-27" value="更新数据用的mvcc数组" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-17">
+          <mxGeometry x="108" width="164" height="27" as="geometry">
+            <mxRectangle width="164" height="27" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-19" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-2">
+          <mxGeometry y="79" width="272.08" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-20" value="modify" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-19">
+          <mxGeometry width="108" height="25" as="geometry">
+            <mxRectangle width="108" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-28" value="脏页标记" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-19">
+          <mxGeometry x="108" width="164" height="25" as="geometry">
+            <mxRectangle width="164" height="25" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-21" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-2">
+          <mxGeometry y="104" width="272.08" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-22" value="dsk" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-21">
+          <mxGeometry width="108" height="27" as="geometry">
+            <mxRectangle width="108" height="27" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-29" value="和磁盘页的关联对象" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="NElFIuJ0PPt1qtHgXGA5-21">
+          <mxGeometry x="108" width="164" height="27" as="geometry">
+            <mxRectangle width="164" height="27" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NElFIuJ0PPt1qtHgXGA5-30" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 14px; letter-spacing: 0.544px; text-align: justify; background-color: rgb(255, 255, 255);&quot;&gt;wt_page&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="147" y="114" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
