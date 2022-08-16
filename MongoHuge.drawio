@@ -1,23 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T12:09:12.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IxpZJJx77Z83N2gO5zQ4" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-16T08:24:04.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="BITtldwViwduSz7AbIgy" version="20.2.3" type="github">
   <diagram id="8otQLcGt8FNEt5Ys178s" name="第 1 页">
-    <mxGraphModel dx="813" dy="435" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="783" dy="414" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aqwmHBOElVPfrlmW572e-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="76.5" width="20" height="217" as="geometry" />
-        </mxCell>
-        <mxCell id="aqwmHBOElVPfrlmW572e-4" value="MongoHuge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="104" y="170" width="73" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aqwmHBOElVPfrlmW572e-5" value="规范的通用拆分语法，可控粒度拆分" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="205" y="63" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="aqwmHBOElVPfrlmW572e-6" value="NaslPath、JsonPath支持" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="205" y="170" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aqwmHBOElVPfrlmW572e-7" value="IO分离，避免拆分带来的性能损耗" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="205" y="281" width="201" height="23" as="geometry" />
+        <mxCell id="aqwmHBOElVPfrlmW572e-4" value="MongoHuge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="84" y="176" width="95" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
